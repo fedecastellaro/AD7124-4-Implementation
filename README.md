@@ -30,7 +30,7 @@ Use the following lines to configure your AD7124:
 - Ad7124Chip_setAdcControl (StandbyMode, FullPower, TRUE, InternalClk);
 
 
-#Take a Sample:
+# Take a Sample:
 
 - uint32_t sample = Ad7124Chip_read(CHANNEL_0);
 
