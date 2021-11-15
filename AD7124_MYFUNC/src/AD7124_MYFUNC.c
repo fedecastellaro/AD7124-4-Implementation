@@ -71,12 +71,9 @@ void AD7124_Init (void)
 	{
 
 		value = Ad7124Chip_read(CHANNEL_0);
-
-
-			value = chnd_2_nmbr(buffer,0);
-			voltage = value;
-		    voltage = ((voltage*1000) / 0x7FFFFFUL) - 1;
-		    voltage = (voltage*25) / (10 * 1);
+		voltage = value;
+		voltage = ((voltage*1000) / 0x7FFFFFUL) - 1;
+	    	voltage = (voltage*25) / (10 * 1);
 
 	}
 
