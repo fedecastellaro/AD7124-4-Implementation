@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name esquematico)(type KiCad)(uri E:/Martin/Facultad/DigitalesII/TPfinal/esquematico/footprints/esquematico.pretty)(options "")(descr ""))
+  (lib (name stick)(type KiCad)(uri E:/Martin/Facultad/DigitalesII/TPfinal/esquematico/stick.pretty)(options "")(descr ""))
+)
