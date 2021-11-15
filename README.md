@@ -38,7 +38,7 @@ You can find a full working code for a LPC1769 Cortex®-M3 microcontroler in the
 
 ## Disclaimer:
 
-Please take in mind that all the **functions in the file ad7124.c where modified to be used with a LPC1769 Cortex®-M3 microcontroler** using not standard APIs.
+Please take in mind that all the **functions in the file ad7124.c where modified to be used with a LPC1769 Cortex®-M3 microcontroler** using the LPCOpen standard APIs.
 This means that in order to make it work in your uC **you'll need to set up your own SPI communication functions**.
 
 In this code, you'll need to adapt the functions:
